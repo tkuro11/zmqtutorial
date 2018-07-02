@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
+
+PROJECT(zmqhello)
+
+ADD_EXECUTABLE(hello zmqhello.c)
+TARGET_LINK_LIBRARIES(hello zmq)
+
+ADD_EXECUTABLE(world zmqworld.c)
+TARGET_LINK_LIBRARIES(world zmq)
+
+
