@@ -7,5 +7,3 @@ TARGET_LINK_LIBRARIES(hello zmq)
 
 ADD_EXECUTABLE(world zmqworld.c)
 TARGET_LINK_LIBRARIES(world zmq)
-
-
